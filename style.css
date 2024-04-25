@@ -9,6 +9,9 @@ body{
 
 .container{
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #display{
@@ -23,6 +26,12 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover{
+    background-color: #0056b3;
 }
 
 @media only screen and (min-width: 600px){
